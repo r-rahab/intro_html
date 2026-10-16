@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+ <style>
+       @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    
+}
+nav {
+    display: flex;
+    justify-content: center;
+   /* background-color: #c1c1c1;*/
+   border-bottom: 2px solid #fff;
+
+}
+.content {
+    background-color: #3fd51e;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+    .content li {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    .content a {
+        text-decoration: none;
+        color: #000;
+        padding: 12px 14px;
+        text-transform: uppercase;
+    }
+    .content ul {
+        display: flex;
+        list-style: none;
+        align-items: center;
+    }
+    .content a:hover {
+        color: #fff;
+    }
+    </style>
+ </head>
+<body>
+    <nav>
+        <div class="content">
+            <div class="logo"><h2></h2></div>  
+           <img src="https://img.icons8.com/ios-filled/50/000000/menu--v1.png" class="menu-icon" alt="Black three-line menu symbol for opening the navigation links.">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">team</a></li>
+
+
+            </ul>
+
+        </div>
+    </nav>
+</body>
+</html>
