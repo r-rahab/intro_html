@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+    <style>
+        body {
+            
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+    
+        }
+        table {
+            border:3px solid #000;
+            border-collapse: collapse;
+            width: 80%;
+        }
+        th{
+            border: 1px solid #000000ac;
+            padding-top: 10px;
+            padding-bottom: 8px;
+            text-align: left;
+            background-color: #060000e8;
+            color: white;
+            padding-left: 8px;
+        }
+        td{
+            border: 1px solid #000000ac;
+        }
+        .popu{
+            color: #eb8cd3;
+        }
+    </style>
+       
+
+</head>
+<body>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>City</th>
+                <th>Country</th>
+                <th class="popu">Population</th>
+                <th>Area</th>
+            </tr>
+        </thead>
+        <tbody> 
+            <tr>
+                <td>London</td>
+                <td>United Kingdom</td>
+                <td class="popu">8,982,000</td>
+                <td>1,572 km²</td>
+            </tr>
+            <tr>
+                <td>Paris</td>
+                <td class="popu">France</td>
+                <td class="popu">2,161,000</td>
+                <td>105 km²</td>
+            </tr>
+            <tr>
+                <td>Tokyo</td>
+                <td>Japan</td>
+                <td class="popu">13,929,000</td>
+                <td>2,194 km²</td>
+            </tr>
+        </tbody>
+    </table>    
+</body>
+</html>
